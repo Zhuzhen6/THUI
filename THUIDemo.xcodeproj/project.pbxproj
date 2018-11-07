@@ -13,6 +13,7 @@
 		9F00622D2192D184002C7DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F00622C2192D184002C7DBC /* Assets.xcassets */; };
 		9F0062302192D184002C7DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F00622E2192D184002C7DBC /* LaunchScreen.storyboard */; };
 		9F0062332192D184002C7DBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0062322192D184002C7DBC /* main.m */; };
+		9F00623C2192D1F1002C7DBC /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F00623B2192D1F1002C7DBC /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9F00622F2192D184002C7DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F0062312192D184002C7DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F0062322192D184002C7DBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F00623A2192D1F1002C7DBC /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		9F00623B2192D1F1002C7DBC /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		9F0062392192D19F002C7DBC /* THUI */ = {
 			isa = PBXGroup;
 			children = (
+				9F00623A2192D1F1002C7DBC /* test.h */,
+				9F00623B2192D1F1002C7DBC /* test.m */,
 			);
 			path = THUI;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0062282192D184002C7DBC /* ViewController.m in Sources */,
+				9F00623C2192D1F1002C7DBC /* test.m in Sources */,
 				9F0062332192D184002C7DBC /* main.m in Sources */,
 				9F0062252192D184002C7DBC /* AppDelegate.m in Sources */,
 			);
