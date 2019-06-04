@@ -112,6 +112,9 @@ static NSString *collectionCell = @"mineCell";
 - (void)hideView{
     self.bg.hidden = YES;
     self.topView.hidden = YES;
+        if (_delegate && [_delegate respondsToSelector:@selector(changeToolListArr:)]) {
+        [_delegate changeToolListArr:self.imagesArray];
+    }
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     return self.imagesArray.count;
